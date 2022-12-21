@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url("https://i.ibb.co/2SKyY1Q/wp2891426.jpg");
+    height: 40px;
+    font-size: 30px;
+    background-color: white;
+    font-family: Bebas Neue;
+}
+
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  .waviy {
+    position: relative;
+    background-image: url("https://i.ibb.co/2SKyY1Q/wp2891426.jpg");
+    background-size: cover;
+    font-size: 60px;
+    display: flex;
+    margin: 1%;
+    justify-content: center;
+  }
+  .waviy span {
+    
+    font-family: rubik gemstones;
+    position: relative;
+    display: inline-block;
+    color:white;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: 30px;
+    font-family: rubik gemstones;
+    margin: 2%;
+  }
+  
+  
+  img.spongebob-dance{
+    display: block;
+    margin: auto;
+    transform: skew(0deg) infinate;
+    animation: shake 3s linear infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: skewY(15deg);
+    }
+    100% {
+      transform: skewY(-15deg);
+  }
+  }
+
+  img.squidward-dance{
+    display: block;
+    transform: skew(0deg) infinate;
+    animation: shake 3s linear infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: skewY(15deg);
+    }
+    100% {
+      transform: skewY(-15deg);
+  }
+  }

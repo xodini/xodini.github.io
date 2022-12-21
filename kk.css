@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+   
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url("https://i.ibb.co/2SKyY1Q/wp2891426.jpg");
+    height: 40px;
+    font-size: 30px;
+    background-color: white;
+    font-family: Bebas Neue;
+}
+
+h1 {
+    font-family: Bebas Neue;
+    display: flex;
+    margin: 2%
+}
+
